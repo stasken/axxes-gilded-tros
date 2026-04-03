@@ -14,7 +14,7 @@ namespace GildedTros.App
         {
             if (Item.SellIn < 0)
             {
-                DecreaseQuality();
+                DecreaseQuality(2);
             }
         }
     }
