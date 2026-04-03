@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace GildedTros.App
 {
 	public abstract class ItemUpdater
@@ -20,6 +20,15 @@ namespace GildedTros.App
 
         protected abstract void UpdateQuality();
 
+        protected void DecreaseQuality(int amount = 1)
+        {
+            Item.Quality -= amount;
+        }
+
+        protected void IncreaseQuality(int amount = 1)
+        {
+            Item.Quality += amount;
+        }
     }
 }
 
