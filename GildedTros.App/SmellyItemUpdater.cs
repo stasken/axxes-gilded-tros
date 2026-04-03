@@ -10,6 +10,13 @@ namespace GildedTros.App
             DecreaseQuality(2);
         }
 
+        protected override void CheckAfterSellInDecreased()
+        {
+            if (Item.SellIn < 0)
+            {
+                DecreaseQuality();
+            }
+        }
     }
 }
 

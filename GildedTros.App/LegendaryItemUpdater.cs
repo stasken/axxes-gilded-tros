@@ -9,6 +9,9 @@ namespace GildedTros.App
 
         protected override void UpdateSellIn() { }
 
+        protected override void CheckAfterSellInDecreased() { }
+
+        protected override void FinalCheckQuality() { }
     }
 }
 
