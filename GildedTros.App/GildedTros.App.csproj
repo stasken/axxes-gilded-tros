@@ -19,9 +19,13 @@
   <ItemGroup>
     <None Remove="tests\" />
     <None Remove="tests\items\" />
+    <None Remove="src\" />
+    <None Remove="src\updaters\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="tests\" />
     <Folder Include="tests\items\" />
+    <Folder Include="src\" />
+    <Folder Include="src\updaters\" />
   </ItemGroup>
 </Project>
